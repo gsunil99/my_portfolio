@@ -19,8 +19,12 @@ hr{
 }
 
 .container-center {
-    max-width: 600px;
+    max-width: 800px;
     margin: auto;
+}
+.link-center {
+    text-align: center;
+    margin-top: 3rem;
 }
 .link {
     text-decoration: none;
@@ -31,12 +35,13 @@ hr{
     border-radius: 0.5rem;
     border-color: black;
     color: white;
+    margin: 1rem 0.5rem 1rem 0rem;
 }
 .link-secondary{
-    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
     border-radius: 0.5rem;
-    border-color: black;
-    color: white;
+    color: black;
+    margin: 1rem 0rem 1rem 0.5rem;
 }
 .list-non-bullet{
     list-style: none;
@@ -50,12 +55,16 @@ hr{
     padding: 1rem;
     color: white;
     border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.navigation .link-active{
+    font-weight: bold;
 }
 .navigation .link{
     color: white;
 }
 .navigation .nav-pills{
-    text-align: right;
+    text-align: center;
 }
 .navigation .nav-brand{
     font-size: 1.1rem;
@@ -70,7 +79,6 @@ hr{
     margin: auto;
 }
 .coding .coding-heading{
-    padding-top: 1rem;
     text-align: center ;
     color: var(--gray-color);
 }
@@ -99,4 +107,15 @@ hr{
 .footer .footer-header{
      font-weight: bold;
      font-size: large;
+}
+.coding{
+    padding: 2rem;
+    padding-top: 5rem;
+}
+.drop-down{
+    margin-top: 3rem;
+    text-align: center;
+}
+.fa-chevron-down:before {
+    content: "\f078";
 }
