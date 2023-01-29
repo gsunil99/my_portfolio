@@ -4,6 +4,7 @@
     --primary-color: #6366f1;
     --gray-color : #6b7280;
     --section-bgcolor : #f9fafb;
+    --off-white: #f8fafc;
 }
 body {
     font-family:  'Montserrat',sans-serif;
@@ -25,6 +26,9 @@ hr{
 }
 .link-center {
     text-align: center;
+    margin-top: 2rem;
+}
+.link-left {
     margin-top: 2rem;
 }
 .link {
@@ -159,4 +163,13 @@ hr{
     max-width: 100%;
     max-height: 100%;
     border-radius: 2rem;
+}
+footer>ul>li>a>img{
+    padding: 1rem;
+    width: 45px;
+}
+.neog-projects{
+    background-color: var(--off-white);
+    max-width: 800px;
+    margin: auto;
 }
