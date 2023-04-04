@@ -12,7 +12,7 @@ Follow these steps:
 - Fork the project.
 - Clone the repository to your local environment.
 
-    ```$ git clone  "https://github.com/gsunil99/neog_lesson_three.git" ```
+    ```$ git clone  "https://github.com/gsunil99/my_portfolio.git" ```
     
 - Make new changes, commit the changes and upload that to your GitHub.
 
