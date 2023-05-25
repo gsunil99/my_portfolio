@@ -4,7 +4,7 @@ Project is live at [**gsunil**](https://gsunil.netlify.app/)
 
 ## How to run the project!
 ### - Clone the project
-> ``` git clone  "https://github.com/gsunil99/neog_lesson_three.git" ```
+> ``` git clone  "https://github.com/gsunil99/my_portfolio.git" ```
 ### - Run the index.html file
 
  ## Want to Contribute, if you find any bug or want to upgrade a feature,
